@@ -46,7 +46,7 @@ Each product entry contains the following information:
 - `Product Link`
 
 **Dataset size:**
-- **~50+ products**
+- **500 products**
 - **6 key features**
 - **0 duplicate records** (after cleaning)
 
