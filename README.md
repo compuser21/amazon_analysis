@@ -106,13 +106,13 @@ The dataset was processed to ensure accuracy and consistency:
 
 ### 💲 Price Distribution
 
-*[/charts/price_distribution.png]*
+![Price Distribution](/charts/price_distribution.png)
 
 The distribution of laptop prices shows a clear market concentration. The majority of competitors' products are priced in the **$100–$400 range**, indicating that this budget segment is the most competitive area of the market. In contrast, very few products are priced at **$3,700 and above**, suggesting that competition in this high-end premium segment is weakest and potentially underserved.
 
 ### ⭐ Price vs. Rating Correlation
 
-*[/charts/price_vs_rating.png]*
+![Price vs. Rating Correlation](/charts/price_vs_rating.png)
 
 The analysis reveals a strong positive correlation between price and rating. Expensive laptops almost never receive low ratings, while most budget models score below 4–4.5. This confirms a clear link between price and quality, with customers consistently more satisfied by higher-priced products. Budget laptops with top ratings are rare exceptions..
 
@@ -136,6 +136,7 @@ Popular products with thousands of reviews solidify their market leadership. The
 ---
 
 ## 📁 Project Structure
+```text
 amazon_analysis/
 │
 ├── scraper/ # Web scraping scripts
@@ -150,7 +151,7 @@ amazon_analysis/
 ├── products.xlsx # Final cleaned and processed dataset
 ├── README.md # Project overview
 └── requirements.txt # List of Python dependencies
-
+```
 ---
 
 ## 🎯 Conclusion
