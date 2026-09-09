@@ -140,7 +140,9 @@ Popular products with thousands of reviews solidify their market leadership. The
 amazon_analysis/
 │
 ├── scraper/ # Web scraping scripts
-│ └── amazon_scraper.py
+│ ├── excel.py
+│ ├── main.py
+│ └── scraper.py
 │
 ├── charts/ # Generated visualizations
 │ ├── price_distribution.png
